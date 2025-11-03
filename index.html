@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sabuj Modak Samiron - QA Engineer | Security Testing">
+    <meta name="keywords" content=" QA Engineer, Web security, SQA, Api Testing, VAPT">
+    <link rel="shortcut icon" href="images/favicon-32x32.png">
+    <title>Sabuj Modak Samiron| QA Engineer</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inconsolata:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="terminal-loading">
+            <div class="terminal-header">
+                <div class="terminal-controls">
+                    <span class="control close"></span>
+                    <span class="control minimize"></span>
+                    <span class="control maximize"></span>
+                </div>
+                <div class="terminal-title">initializing_security_profile.sh</div>
+            </div>
+            <div class="terminal-body">
+                <div class="loading-text">
+                    <span class="prompt">root@qa:~$</span>
+                    <span class="command">./initialize_portfolio.sh</span>
+                </div>
+                <div class="loading-text">
+                    <span class="loading-dots">Loading QA Engineer Profile</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="terminal-prompt">root@qa:~$</span>
+            </div>
+                            <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-controls">
+                            <span class="control close"></span>
+                            <span class="control minimize"></span>
+                            <span class="control maximize"></span>
+                        </div>
+                        <div class="terminal-title">qa_profile.sh</div>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="prompt">root@qa:~$</span>
+                            <span class="command">whoami</span>
+                        </div>
+                        <div class="terminal-output">
+                            <h1>Sabuj Kumar Modak</h1>
+                            <p class="role">QA Engineer, Security Testing</p>
+                            <p class="company">@ Singularity Limited</p>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">root@qa:~$</span>
+                            <span class="command">cat /etc/motd</span>
+                        </div>
+                        <div class="terminal-output">
+                            <p>Junior QA Engineer with 2 years of experience in functional, API, security, and automation testing. Skilled in test case design, 
+                                execution, and Selenium automation. Experienced in Agile Scrum and passionate about improving product quality and learning modern frameworks.</p>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">root@security:~$</span>
+                            <span class="command blinking-cursor">█</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="live-terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-controls">
+                            <span class="control close"></span>
+                            <span class="control minimize"></span>
+                            <span class="control maximize"></span>
+                        </div>
+                        <div class="terminal-title">security_monitor.sh — bash — 80×24</div>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="terminal-line">
+                            <span class="prompt">sabuj@qa:~$</span>
+                            <span class="command">nmap -sS 192.168.1.0/24</span>
+                        </div>
+                        <div class="output">Starting Nmap scan...</div>
+                        <div class="output success">Host is up (0.001s latency)</div>
+                        <div class="output">22/tcp   open  ssh</div>
+                        <div class="output">80/tcp   open  http</div>
+                        <div class="output">443/tcp  open  https</div>
+                        
+                        <div class="terminal-line">
+                            <span class="prompt">sabuj@qa:~$</span>
+                            <span class="command">netstat -tulpn | grep LISTEN</span>
+                        </div>
+                        <div class="output">tcp 0.0.0.0:22  LISTEN  1337/sshd</div>
+                        <div class="output">tcp 0.0.0.0:80  LISTEN  1842/nginx</div>
+                        
+                        <div class="terminal-line">
+                            <span class="prompt">sabuj@qa:~$</span>
+                            <span class="command">ps aux | grep suspicious</span>
+                        </div>
+                        <div class="output warning">No suspicious processes found</div>
+                        
+                        <div class="terminal-line">
+                            <span class="prompt">sabuj@qa:~$</span>
+                            <span class="command">tail -f /var/log/auth.log</span>
+                        </div>
+                        <div class="output live-log" id="authLog">Monitoring authentication logs...</div>
+                        
+                        <div class="terminal-line active">
+                            <span class="prompt">sabuj@qa:~$</span>
+                            <span class="command-input">
+                                <span class="typing-text"></span>
+                                <span class="cursor">█</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-briefcase"></i>
+                Work Experience
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Software QA Engineer </h3>
+                        <p class="company">Singularity Limited</p>
+                        <p class="period">January 2025 - Present</p>
+                        <ul class="responsibilities">
+                            <li>Created and executed manual & automated test cases (Selenium, Java) for web apps.</li>
+                            <li>Performed regression testing; tracked and verified fixes using test management tools.</li>
+                            <li>Conducted security testing to identify vulnerabilities and support remediation.</li>
+                            <li>Conducted Api testing & Load testing </li>
+                            <li>Collaborated with developers in Agile sprints, provided testing estimates & feedbacks.</li>
+                            
+                    
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Jr. QA Engineer</h3>
+                        <p class="company">Bdjobs Ltd</p>
+                        <p class="period">January 2024 - January 2025</p>
+                        <ul class="responsibilities">
+                            <li>Designed and executed test cases for web & mobile apps; automated key workflows with Selenium.</li>
+                            <li>Conducted API testing with Postman and maintained structured test collections. </li>
+                            <li>Performed load testing with JMeter and security testing for web/mobile apps.</li>
+                            <li>•Reported defects, vulnerabilities, and performance bottlenecks; improved release quality.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-graduation-cap"></i>
+                Education
+            </h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>Bachelor of Science in Information Technology</h3>
+                        <div class="university">University of Information Technology & Sciences, Dhaka</div>
+                        <div class="period">January 2020 - December 2023</div>
+                        <div class="concentration">
+                            <span class="concentration-label">Concentration:</span>
+                            <span class="concentration-value">Cybersecurity</span>
+                        </div>
+                        <div class="gpa">
+                            <span class="gpa-label">GPA:</span>
+                            <span class="gpa-value">3.22/4.0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-code"></i>
+                Technical Arsenal
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-puzzle-piece"></i> Manual Testing </h3>
+                    <div class="skill-tags">
+                        <span class="tag">Requirement analysis</span>
+                        <span class="tag">Test planning</span>
+                        <span class="tag">Functional testing</span>
+                        <span class="tag">Regression testing</span>
+                        <span class="tag">GUI testing</span>
+                        <span class="tag">System testing</span>
+                        <span class="tag">Acceptance testing</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-link"></i> API Testing</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Integration testing</span>
+                        <span class="tag">Validation testing</span>
+                        <span class="tag">Performance testing</span>
+                        <span class="tag">Negative testing</span>
+                        <span class="tag">Security Testing</span>
+                        <span class="tag">Fuzz testing</span>
+                        
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-bug"></i> Offensive Security</h3>
+                    <div class="skill-tags">
+                        <span class="tag">VAPT</span>
+                        <span class="tag">Web App testing</span>
+                        <span class="tag">API testing</span>
+                        <span class="tag">OSINT</span>
+                        <span class="tag">Digital Forensic</span>
+                        <span class="tag">OWASP Top 10</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-search"></i> Load Testing</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Load testing</span>
+                        <span class="tag">Stress testing</span>
+                        <span class="tag">Spike testing</span>
+                        <span class="tag">Volume testing</span>
+                        <span class="tag">Scalability testing</span>
+                        <span class="tag">Endurance (Soak) testing</span>
+                        
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Automation Testing</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Regression testing</span>
+                        <span class="tag">Security automation testing</span>
+                        <span class="tag">Data-Driven testing</span>
+                        <span class="tag">Integration testing</span>
+                        <span class="tag">Selenium</span>
+                        
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-bolt"></i>Tools</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Selenium</span>
+                        <span class="tag">Postman</span>
+                        <span class="tag">JMete</span>
+                        <span class="tag">ClickUp</span>
+                        <span class="tag"> BurpSuite</span>
+                        <span class="tag">Kali-Linux</span>
+                        <span class="tag">Nmap</span>
+                        <span class="tag">Zap</span>
+                        <span class="tag"> Mongo Compass</span>
+                        <span class="tag">Canva</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">Wireshark</span>
+                        <span class="tag">Microsoft Office</span>
+                        
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-project-diagram"></i>
+                Projects & Research
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Dynamic Phishing URL Detection</h3>
+                    <p>Machine Learning & Deep Learning algorithms for detecting phishing URLs in real-time</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">ML/DL</span>
+                        <span class="tech-tag">Thesis</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>OTP Verification Process</h3>
+                    <p>Bypassed the OTP verification process using "Turbo Intruder Extension</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Security testing</span>
+                        <span class="tech-tag">BurpSuite</span>
+                       
+                    </div>
+                </div>
+           
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-crosshairs"></i>
+                    </div>
+
+                    <h3>ApacheBench AB Load testing</h3>
+                    
+                    <p>Perfect for measuring key performance metrics like RPS, response time, throughput, and error rate</p>
+                         <a href="https://github.com/xamiron/ApacheBench-ab-Load-Testing-on-Kali-Linux" target="_blank" class="project-link">  
+                    <div class="project-tech">
+                        <span class="tech-tag">Smoke testing</span>
+                        <span class="tech-tag">Ramp up</span>
+                        <span class="tech-tag">Spike</span>
+                    </a>
+                    </div>
+                </div>
+              
+                
+                 <!--
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>eBPF Kubernetes Auditor</h3>
+                    <p>Network Policy Auditor powered by eBPF for Kubernetes environments</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">eBPF</span>
+                        <span class="tech-tag">Kubernetes</span>
+                        <span class="tech-tag">In Development</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Hound</h3>
+                    <p>Port scanner and website security header checker script</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Security Testing</span>
+                        <span class="tech-tag">Open Source</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>SSHHH</h3>
+                    <p>SSH login brute force testing tool for security assessments</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Penetration Testing</span>
+                        <span class="tech-tag">Security Tool</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    -->
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-trophy"></i>
+                Achievements & Certifications
+            </h2>
+            <div class="achievements-grid">
+                <div class="achievement-category">
+                    <h3>CTF Competitions</h3>
+                    <div class="achievement-list">
+                        <div class="achievement-item">
+                            <div class="rank">2nd</div>
+                            <div class="details">
+                                <h4>IEEE Cyber Crawler CTF 2023</h4>
+                                <p>Bangladesh</p>
+                            </div>
+                        </div>
+                       
+                        <div class="achievement-item">
+                            <div class="rank">11th</div>
+                            <div class="details">
+                                <h4>LEETCON HackMeIfYouCan 2023</h4>
+                                <p>Bangladesh</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="rank">11th</div>
+                            <div class="details">
+                                <h4>National Flaghunt 2022</h4>
+                                <p>Bangladesh</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="rank">14th</div>
+                            <div class="details">
+                                <h4>National Cyber Drill 2022</h4>
+                                <p>Bangladesh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="achievement-category">
+                    <h3>Certifications</h3>
+                    <div class="cert-list">
+                        <div class="cert-item">
+                            <i class="fas fa-sync-alt"></i>
+                            <div class="cert-details">
+                                <h4>Agile Scrum Master</h4>
+                                <p>Simplilearn</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div class="cert-details">
+                                <h4>API Security Fundamentals</h4>
+                                <p>APIsec University</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-user-secret"></i>
+                            <div class="cert-details">
+                                <h4>Foundation Level Threat Intelligence Analyst</h4>
+                                <p>ArcX</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-lock"></i>
+                            <div class="cert-details">
+                                <h4>Certified Network Security Practitioner – CNSP</h4>
+                                <p>The SecOps Group</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-terminal"></i>
+                Contact
+            </h2>
+            <div class="contact-container">
+                <div class="terminal-contact">
+                    <div class="terminal-header">
+                        <div class="terminal-controls">
+                            <span class="control close"></span>
+                            <span class="control minimize"></span>
+                            <span class="control maximize"></span>
+                        </div>
+                        <div class="terminal-title">contact.sh</div>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="prompt">root@qa:~$</span>
+                            <span class="command">grep -r "contact" /etc/profile</span>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:sabuj.modak.qa@gmail.com">sabuj.modak.qa@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-linkedin"></i>
+                                <a href="https://www.linkedin.com/in/sabuj-modak/" target="_blank">LinkedIn</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-github"></i>
+                                <a href="https://github.com/xamiron" target="_blank">GitHub</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-twitter"></i>
+                                <a href="https://x.com/xamiron" target="_blank">Twitter</a>
+                            </div>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">root@qa:~$</span>
+                            <span class="command">echo "Thanks for visiting!"</span>
+                        </div>
+                        <div class="terminal-output">
+                            <p>Available for qa consulting, penetration testing, and VAPT.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sabuj Modak. All rights reserved.</p>
+            <p>Built with <i class="fas fa-heart"></i> and <i class="fas fa-shield-alt"></i></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script>
+        // Loading Screen
+        window.addEventListener('load', function() {
+            const loadingScreen = document.getElementById('loading-screen');
+            setTimeout(() => {
+                loadingScreen.style.opacity = '0';
+                setTimeout(() => {
+                    loadingScreen.style.display = 'none';
+                }, 500);
+            }, 2000);
+        });
+
+        // Navigation functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-menu');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            hamburger.addEventListener('click', function() {
+                hamburger.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    hamburger.classList.remove('active');
+                    navMenu.classList.remove('active');
+                });
+            });
+
+            // Smooth scrolling
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Active navigation highlighting
+            window.addEventListener('scroll', function() {
+                let current = '';
+                const sections = document.querySelectorAll('section');
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= sectionTop - 200) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === '#' + current) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+
+            // Terminal typing animation
+            const commands = document.querySelectorAll('.command');
+            commands.forEach(command => {
+                if (command.textContent.trim() !== '█') {
+                    command.style.opacity = '0';
+                    setTimeout(() => {
+                        command.style.opacity = '1';
+                        command.style.animation = 'typing 2s steps(20) infinite';
+                    }, 1000);
+                }
+            });
+
+            // Live terminal simulation
+            const typingText = document.querySelector('.typing-text');
+            const authLog = document.getElementById('authLog');
+            
+            const terminalCommands = [
+                'sudo netstat -plan',
+                'wireshark -i eth0',
+                'ss -tulpn',
+                'lsof -i',
+                'iptables -L',
+                'tcpdump -i any',
+                'nmap -A localhost',
+                'fail2ban-client status'
+            ];
+
+            let commandIndex = 0;
+            let charIndex = 0;
+
+            // Typing animation for new commands
+            function typeCommand() {
+                if (typingText && terminalCommands[commandIndex]) {
+                    const currentCommand = terminalCommands[commandIndex];
+                    if (charIndex < currentCommand.length) {
+                        typingText.textContent = currentCommand.substring(0, charIndex + 1);
+                        charIndex++;
+                        setTimeout(typeCommand, 100 + Math.random() * 100);
+                    } else {
+                        setTimeout(() => {
+                            typingText.textContent = '';
+                            charIndex = 0;
+                            commandIndex = (commandIndex + 1) % terminalCommands.length;
+                            setTimeout(typeCommand, 2000);
+                        }, 3000);
+                    }
+                }
+            }
+
+            // Start typing animation
+            setTimeout(typeCommand, 2000);
+
+            // Live authentication log simulation
+            const logEntries = [
+                'Accepted publickey for sabuj from 192.168.1.100',
+                'Failed password for admin from 45.142.23.45',
+                'Successful sudo authentication for sabuj',
+                'SSH connection from 192.168.1.50 port 22',
+                'Session opened for user sabuj',
+                'Firewall blocked connection from 176.31.45.67',
+                'Login successful: sabuj@qa-workstation'
+            ];
+
+            function updateAuthLog() {
+                if (authLog) {
+                    const randomEntry = logEntries[Math.floor(Math.random() * logEntries.length)];
+                    const timestamp = new Date().toLocaleTimeString();
+                    authLog.innerHTML = `[${timestamp}] ${randomEntry}`;
+                }
+            }
+
+            // Update auth log every 5 seconds
+            setInterval(updateAuthLog, 5000);
+            
+            // Initial auth log update
+            setTimeout(updateAuthLog, 1000);
+        });
+    </script>
+</body>
+</html>
