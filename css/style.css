@@ -446,8 +446,9 @@ section {
     border-radius: 12px;
     border: 1px solid var(--border-color);
     box-shadow: var(--shadow);
-    width: 45%;
-    margin: 0 2rem;
+    width: 48%;
+    /* margin: 0 2rem; */
+    box-sizing: border-box;
 }
 
 .timeline-content h3 {
@@ -997,6 +998,9 @@ footer i {
 
     section {
         padding: 4rem 0;
+    }
+    .timeline-content{
+        max-width: 90%;
     }
 }
 
